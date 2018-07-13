@@ -3,20 +3,19 @@
 int main() 
 {
 	int n;
-	printf("Enter a number to check Positive or Negative:");
 	scanf("%d", &n);
 	
 	if(n<0)
 	{
-		printf("\nThe number is Negative!");
+		printf("\n Negative");
 	}
 	else if(n>=1)
     {
-    	printf("\nThe Number is Positive!");
+    	printf("\n Positive");
     }
     else
     {
-    	printf("\nThe Number you entered is %d (Zero)", n);
+    	printf("\n Zero", n);
     }
    return 0;
 }
